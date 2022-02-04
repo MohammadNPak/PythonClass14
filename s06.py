@@ -21,15 +21,9 @@
 #     print("NO")
 
 
-
-
-
-
 # x=input()
 # print(f"saal:{x[0:2]}")
 # print(f"maah:{x[2:]}")
-
-
 
 
 # x=input()
@@ -46,17 +40,11 @@
 #     print("NO")
 
 
-
 # x=input()
 # if x == x[::-1]:
 #     print("YES")
 # else:
 #     print("NO")
-
-
-
-
-
 
 
 # Compute power of two greater than or equal to `n`
@@ -65,9 +53,6 @@
 # while j<n:
 #     j*=2
 # print(j)
-
-
-
 
 
 # n = int(input())
@@ -95,8 +80,6 @@
 # print(max_)
 
 
-
-
 # a = int(input())#عداد کامل بودن یا نبودن
 # b = 1
 # c = 0
@@ -122,9 +105,89 @@
 #     print("NO")
 
 
-x=input()
-c=0
-while c < len(x):
-    print(f"{x[c]}:", x[c]*int(x[c]))
-    c +=1
+# x=input()
+# c=0
+# while c < len(x):
+#     print(f"{x[c]}:", x[c]*int(x[c]))
+#     c +=1
+
+
+# x = [2,4,7,12,"salam",True]
+# for y in x[::-1]:
+#     print(y,end=", ",sep="*")
+
+
+# x=1
+# y=2
+# z = 3
+# print(x,y,z,sep=" ",end="")
+# print(x,y,z,sep=" ",end="")
+
+
+# for x in input().split():print(int(x)**2,end=" ")
+
+
+# x = input().split()
+# for z in x:
+#     print(int(z)**2, end=" ")
+
+
+# range(10) -> 0 1 2 3 4 5 6 7 8 9
+
+# range(4,10) -> 4 5 6 7 8 9
+
+# range(4,10,3) -> 4 7 
+
+# for i in range(30*30,50*30,7):
+#     print(i)
+
+
+# x = range()
+# print(type(x))
+# iterable
+
+
+
+# m = int(input())
+# n = int(input())
+
+# s = 0
+# for i in range(m+1,n):
+#     s+=i
+# print(s)
+
+
+
+# print(sum(range(int(input())+1,int(input()))))
+
+# m = int(input())
+# n = int(input())
+
+# lower = min(m,n)
+# upper = max(m,n)
+# print(sum(range(lower+1,upper)))
+
+
+# import math
+
+# print(min([10,20,-2,0]))
+
+
+# a = ["first","second",1,2,3,4]
+# a.append(8)
+# print(a)
+# a.append("salam")
+# print(a)
+# a.pop()
+# print(a)
+# a.remove("second")
+# a.insert(0,"third")
+# print(a)
+
+# b = []
+
+
+
+# for i in a:
+#     b.append(i**2)
 
